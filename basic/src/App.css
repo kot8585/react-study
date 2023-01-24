@@ -1,0 +1,77 @@
+.orange {
+  color: orange;
+}
+
+.profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.75);
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.new {
+  padding: 3px;
+  position: absolute;
+  background-color: aqua;
+  color: white;
+  border-radius: 3px;
+  top: 30px;
+  right: 0;
+}
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: gold;
+  font-weight: bold;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(215, 127, 12);
+}
+
+.counter:hover {
+  background-color: rgb(246, 243, 197);
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgb(215, 127, 12);
+  background: linear-gradient(90deg,
+      rgba(215, 127, 12, 1) 0%,
+      rgba(253, 220, 29, 1) 100%);
+}
