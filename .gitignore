@@ -4,12 +4,12 @@
 ### react ###
 .DS_*
 *.log
-logs
+**/logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
-bower_components
+**/node_modules
+**/bower_components
 
 *.sublime*
 
