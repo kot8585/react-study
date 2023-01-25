@@ -1,6 +1,6 @@
 import React from 'react';
-import Avatar from './components/Avatar';
-import Profile from './components/Profile';
+import Avatar from './real_basic/components/Avatar';
+import Profile from './real_basic/components/Profile';
 
 export default function AppProfile() {
   const handleClick = (event) => {
