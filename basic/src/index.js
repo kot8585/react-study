@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './basicXY/AppXY.css'
 import reportWebVitals from './reportWebVitals';
-import AppXY from './basicXY/AppXY';
-import AppMentor from './basic_mentor/AppMentor';
+import UseMemo from './hooks_basic/UseMemo';
+import AppProducts from './real_basic/AppProducts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppMentor />
+    <AppProducts />
   </React.StrictMode>
 );
 
