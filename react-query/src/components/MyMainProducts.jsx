@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Products from './Products';
+import Products from './MyProducts';
 import {useQuery} from 'react-query';
 
 export default function MainProducts() {
