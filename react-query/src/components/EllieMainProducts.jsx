@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Products from './EllieProducts';
+import EllieProducts from './EllieProducts';
 
 export default function MainProducts() {
   const [showLeftProducts, setShowLeftProducts] = useState(true);
@@ -7,13 +7,13 @@ export default function MainProducts() {
   return (
     <main className='container'>
       <div>
-        {showLeftProducts && <Products />}
+        {showLeftProducts && <EllieProducts />}
         <button onClick={() => setShowLeftProducts((show) => !show)}>
           Toggle
         </button>
       </div>
       <div>
-        {showRightProducts && <Products />}
+        {showRightProducts && <EllieProducts />}
         <button onClick={() => setShowRightProducts((show) => !show)}>
           Toggle
         </button>

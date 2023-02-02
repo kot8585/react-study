@@ -1,14 +1,18 @@
 import React from 'react';
 import './App.css';
-import { QueryClient, QueryClientProvider } from 'react-query'
-import MainProducts from './components/MainProducts';
+import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
+import EllieMainProducts from './components/EllieMainProducts';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+
+import MainProducts from './components/MyMainProducts';
 
 const queryClient = new QueryClient();
 
 export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <MainProducts />
+      <EllieMainProducts />
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
 }
