@@ -15,6 +15,7 @@ export default function MainProducts() {
   const {isLoading, error, data} = useQuery({
     queryKey: ['salesOnly', salesOnly], 
     queryFn: () => {
+      console.log('myfetching...');
       return fetch(`data/${salesOnly ? 'sale_' : ''}products.json`).then(res => {
         console.log("🔥fetching...")
         return res.json();
